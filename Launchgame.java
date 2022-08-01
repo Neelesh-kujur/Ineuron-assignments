@@ -1,3 +1,14 @@
+/** Did some enhancements :-
+
+1. Restricted the number to be guessed from 1 to 100.
+2. Each player gets 2 chances each to guess the numbers.
+3. Made it a two round game.
+4. Rectified some of the sentences and gives proper outputs according to the selected options.
+5. Asks for input as long as the number to be guessed lies within the given range...
+
+**/
+
+
 import java.util.*;
 class Guesser
 {
@@ -40,7 +51,8 @@ class Umpire
         numFromGuesser=g.guessNumber();
 
     }
-
+    
+    //To check wether the entered number lies within the given range of 1 to 10 or not.
     public boolean checkNumber()
     {
             Guesser g=new Guesser();
